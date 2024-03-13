@@ -4,7 +4,7 @@ import {WebView} from 'react-native-webview';
 
 const Newsview = ({navigation, route}: {navigation: any; route: any}) => {
   const {url} = route?.params;
-  console.log(url);
+  // console.log(url);
   return (
     <SafeAreaView style={{flex:1,backgroundColor:'white'}}>
       <WebView source={{uri: url}} style={{flex: 1,}} />

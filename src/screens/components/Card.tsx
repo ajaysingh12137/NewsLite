@@ -4,7 +4,7 @@ import Newsview from './Newsview';
 import {useNavigation} from '@react-navigation/native';
 
 const card = ({item, navigation}: {item: any; navigation: any}) => {
-  console.log(item);
+  // console.log(item);
   return (
     <View style={{flex: 1, backgroundColor: 'white'}}>
       <View style={{margin: 10}}>
